@@ -5,7 +5,7 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model=load_model('C:\github projects\Stock prediction\stockprediction.keras')
+model=load_model('stockprediction.keras')
 
 st.header("Stock Market Predictor")
 
